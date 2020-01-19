@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Code</title>
+	<meta charset="utf-8">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="assets/favicon.ico" rel="shortcut icon">
+	<meta property="og:title" content="KEYS248's Home on the Web" />
+    <meta property="og:image" content="assets/meta_preview.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<script> 
+    $(function(){
+        $("#header").load("header.html"); 
+        $("#footer").load("footer.html");
+    });
+</script> 
+<body>
+	<div id="header"></div>
+	<main role="main">
+        <h2>Code</h2>
+        <section class="content">
+            <dl>
+                <dt><a href="#rosalind-solver" title="Rosalind Solver">Rosalind Solver</a> - <a href="https://github.com/KEYS248/rosalind-solver" title="Rosalind Solver" target="_blank">github link</a></dt>
+                <dd>A program to solve bioinformatic exercises from the educational Rosalind project.</dd>
+                <dt><a href="#av-irv-voting" title="AV/IRV Voting">AV/IRV Voting</a> - <a href="https://github.com/KEYS248/av-irv_voting" title="AV/IRV Voting Repository" target="_blank">github link</a></dt>
+                <dd>An automated tallying program for Alternative/Instant Runoff voting.</dd>
+                <dt><a href="#simple-quizzing" title="Simple Quizzing">Simple Quizzing</a> - <a href="https://github.com/KEYS248/simple-quizzing" title="Simply Quizzing Repository" target="_blank">github link</a></dt>
+                <dd>Simple, multiple choice quizzes automatically generated from your notes.</dd>
+                <dt><a href="#sequence-analysis" title="DNA Sequence Analysis">DNA Sequence Analysis</a> - <a href="https://github.com/BUGS-NYU/seek-quench" title="Seek Quench Repository" target="_blank">github link</a></dt>
+                <dd>Building a program to do simple pairwise sequence alignments.</dd>
+                <dt><a href="#automated-email" title="Automated Email">Automated Email</a> - <a href="https://github.com/KEYS248/simple-email-parsing" title="Simple Email Parsing" target="_blank">github link</a></dt>
+                <dd>Programmed an automated email response system with camera integration.</dd>
+                <dt><a href="#website" title="Website">Website</a> - <a href="https://www.github.com/KEYS248/keys248.github.io" title="GitHub Pages Repository" target="_blank">github link</a></dt>
+                <dd>Programmed my own website from scratch.</dd>
+                <dt><a href="#terminal-workshop" title="Terminal Workshop">Terminal Workshop</a> - <a href="https://github.com/BUGS-NYU/TerminalWorkshop" title="Terminal Workshop" target="_blank">github link</a></dt>
+                <dd>Fun exercises to learn the basics of the Unix Terminal.</dd>
+                <dt><a href="#pong" title="Pong">Pong</a> - <a href="https://github.com/KEYS248/pong-papplet" title="Pong PApplet" target="_blank">github link</a></dt>
+                <dd>A simple Java pong game using Processing and PApplet.</dd>
+                <dt><a href="#sticky" title="Sticky">Sticky</a> - <a href="https://github.com/KEYS248/sticky" title="Sticky Game" target="_blank">github link</a></dt>
+                <dd>A challenging text-based Python pick-up-sticks game.</dd>
+            </dl>
+        </section>
+        <section>
+            <h2 id="rosalind-solver">Rosalind Solver</h2>
+            <p>The Rosalind project, found at <a href="http://rosalind.info/problems/locations/" title="Rosalind Project" target="_blank">rosalind.info</a>, is designed to teach bioinformatics and programming through educational exercises, inspiring the next generation of computationally empowered biologists. I've started completing some exercises from the project and the program I've written at <a href="https://github.com/KEYS248/rosalind-solver" title="Rosalind Solver" target="_blank">github.com/KEYS248/rosalind-solver</a> implements my solutions for those exercises. Although interested biologists should really attempt the exercises themselves before seeking solutions, my solutions are available here to compare and see how the same problems can be solved in different ways.</p>
+        </section>
+        <section>
+            <h2 id="av-irv-voting">AV/IRV Voting</h2>
+            <p>Alternative/Instant Runoff voting is a better alternative to the common First Past The Post system. This program can be used when there are multiple people voting on one or more propositions or positions, each with multiple choices where only one can win. This program will parse the results of a Google Form, tally the votes, and show you the winner for each proposition or position. You can check out or use the program at <a href="https://github.com/KEYS248/av-irv_voting" title="AV/IRV Voting Repository" target="_blank">github.com/KEYS248/av-irv_voting</a>.</p>
+        </section>
+        <section>
+            <h2 id="simple-quizzing">Simple Quizzing</h2>
+            <p>These programs automatically generate quizzes based on notes you create on a spreadsheet. One of the programs even allows you to ask for hints. This would be best used when you are expected to know a term based on limited hints of its defintion. You can check out or use the programs at <a href="https://github.com/KEYS248/simple-quizzing" title="Simply Quizzing Repository" target="_blank">github.com/KEYS248/simple-quizzing</a>.</p>
+        </section>
+        <section>
+            <h2 id="sequence-analysis">DNA Sequence Analysis</h2>
+            <p>Some simply DNA sequences can be analyzed pairwise through the python program constructed but further work on this project has been indefinitely stopped. Some other goals for the project included implementing more classic bioinformatic algorithms and to have a Django website application so anyone could use it. You can check out or use the programs at <a href="https://github.com/BUGS-NYU/seek-quench" title="Seek Quench Repository" target="_blank">github.com/BUGS-NYU/seek-quench</a>.</p>
+        </section>
+        <section>
+            <h2 id="automated-email">Automated Email</h2>
+            <p>I wrote some programs that can automatically read and respond to your emails. There are many possible uses for these types of programs including automated responses to specific messages, being able to control and get notifications on processes being run on remote computers, and pre-written emails scheduled to be sent later.</p>
+            <p>Some basic examples for your configuration purposes are on my GitHub repository at <a href="https://github.com/KEYS248/simple-email-parsing" title="Simple Email Parsing" target="_blank">github.com/KEYS248/simple-email-parsing</a>.</p>
+            <p>My current setup with this concept has a simple camera integration and continuously reads through inbox emails until it recieves an email requesting a current picture of the room. At this point it takes a picture of the room and attaches that image in a response email to the person requesting. This system can easily be developed further to build a simple home security or monitoring system that continuously takes images of an area and stores them online for remote access.</p>
+        </section>
+        <section>
+            <h2 id="website">Website</h2>
+            <p>I decided to create a space where I could more neatly organize and showcase my various projects. I also wanted to learn some HTML and CSS on my own over a school break using the school's access to Lynda.com.</p>
+            <p>I watched a number of their videos, purchased a domain name on Google Domains, wrote my HTML and CSS, and hosted my website on GitHub Pages. The outcome is this current website you are on. The source code is open on GitHub at <a href="https://www.github.com/KEYS248/keys248.github.io" title="GitHub Pages Repository" target="_blank">github.com/KEYS248/keys248.github.io</a></p>
+            <p>GitHub Pages is a great way to host your own website in a safe and open way. Because of this I plan to create a walkthrough in the near future in order to guide people through creating their own site using this tool.</p>
+        </section>
+        <section>
+            <h2 id="terminal-workshop">Terminal Workshop</h2>
+            <p>As part of a club workshop for the NYU BUGS Open Source club, I created some entertaining exercises to teach the basics of the Unix Terminal. The workshop is on GitHub at <a href="https://github.com/BUGS-NYU/TerminalWorkshop" title="Terminal Workshop" target="_blank">github.com/BUGS-NYU/TerminalWorkshop</a>.</p>
+            <p>I would say it is easier to learn if you already have some computer science experience or are comfortable with computers in general. Either way, it is without a doubt a very powerful tool for many purposes and worth knowing.</p>
+            <p>I have come to love command line interfaces and would highly recommend first starting out by learning some of its history through a Google Slides presentation I've created at <a href="https://bit.ly/BugsTerminal" title="Terminal History" target="_blank">bit.ly/BugsTerminal</a>. After this I would recommend continuing on to the exercises.</p>
+        </section>
+        <section>
+            <h2 id="pong">Pong</h2>
+            <p>As part of an assignment for one of my earliest computer science courses, we were tasked with creating a very simple Java game using Processing and PApplet tools. I found my game entertaining so anyone interested is free to play with it and it may also help them get a better understanding of how Processing and PApplet work. The repository can be found at <a href="https://github.com/KEYS248/pong-papplet" title="Pong PApplet" target="_blank">github.com/KEYS248/pong-papplet</a>.</p>
+        </section>
+        <section>
+            <h2 id="sticky">Sticky</h2>
+            <p>This was the first program I was proud of and it was a product of my first ever computer science class. The assignment was to create a simple text-based pick up sticks game with an extra credit of making it smart. There is an algorithm to the game and my program makes use of it. The chances of success are 25% if you know the algorithm, but much lower without. Try it out at <a href="https://github.com/KEYS248/sticky" title="Sticky Game" target="_blank">github.com/KEYS248/sticky</a>.</p>
+        </section>
+	</main>
+	<div id="footer"></div>
+	</body>
+</html>

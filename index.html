@@ -1,17 +1,46 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
+	<title>Home</title>
 	<meta charset="utf-8">
 	<link href="style.css" rel="stylesheet" type="text/css">
-	<link href="img/favicon.ico" rel="shortcut icon">
-	<meta property="og:title" content="A Gibsonian-Themed Website" />
-    <meta property="og:image" content="img/matrix_01.png">
+	<link href="assets/favicon.ico" rel="shortcut icon">
+	<meta property="og:title" content="KEYS248's Home on the Web" />
+    <meta property="og:image" content="assets/meta_preview.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
-<main role="main">
-	<article role="article">
-        <div class="image">
-            <img class="screen" src="img/matrix_05.png" alt="Matrix" />
-            <a href="https://www.datumplane.net/keys248" style="top: 40%; left: 20%; width: 60%; height: 20%;"></a>
-        </div>
-	</article>
-</main>
+<script> 
+    $(function(){
+        $("#header").load("header.html"); 
+        $("#footer").load("footer.html");
+    });
+</script> 
+<body>
+	<div id="header"></div>
+	<main role="main">
+        <h2>Home</h2>
+        <section>
+            <p>Welcome to my index of projects related to my research, programming, and art. Recommendations, opinions, and ideas are also occasionally displayed.</p>
+        </section>
+        <section>
+            <h2>About</h2>
+            <p><!--<img class="left" src="_img/bottleboy.jpg" align="left">-->Isn't it crazy how for every human cell in our body we have the same amount of microbes living on or in us?<sup>1</sup> It's incredible how immune system B cells implement evolution for themselves, adapting to pathogens by increasing the affinity of their antibodies through deliberate genetic mutations to better detect invaders.<sup>2</sup> I'm blown away by the use of mathematics to simulate evolution <i>in silico</i>, such as having AIs learn, adapt to opponents, and even manipulate the physics of their environment to the surprise of the program designers.<sup>3</sup> In summary, I'm fascinated by carbon-based and silicon-based life. I hope to combine Biology and Computer Science, using computational tools to elevate biomedical research and contribute to humanity in ways neither of these disciplines could accomplish on their own. Catch me in the library.</p>
+            <p style="font-size: 60%;">1. Sender R, Fuchs S, Milo R. Revised Estimates for the Number of Human and Bacteria Cells in the Body. PLoS Biol. 2016;14(8):e1002533. Published 2016 Aug 19. <a href="http://doi.org/10.1371/journal.pbio.1002533" title="Bacteria Estimations" target="_blank">http://doi.org/10.1371/journal.pbio.1002533</a>.<br>2. Maul RW, Gearhart PJ. AID and Somatic Hypermutation. Adv Immunol. 2010;105:159-191. <a href="http://doi.org/10.1016/S0065-2776(10)05006-6" title="Somatic Hypermutation" target="_blank">http://doi.org/10.1016/S0065-2776(10)05006-6</a>.<br>3. Baker B, Kanitscheider I, Markov T, et al. Emergent Tool Use From Multi-Agent Autocurricula. September 2019. <a href="http://arxiv.org/abs/1909.07528" title="Emergent AI" target="_blank">http://arxiv.org/abs/1909.07528</a>.</p>
+        </section>
+        <section>
+            <h2>Interests</h2>
+            <p>I promote the philosophies of Open Source that encourage collaboration in the fields of software development, biomedical research, and engineering. Open Source allows a project to get exposed to a larger audience of interested professionals so that the project can be further developed, secured, tested, and equipped for more tasks than what a single propietary group of people could accomplish. I started a club to promote these practices at <a href="https://bugs-nyu.github.io/" title="BUGS Website" target="_blank">bugs-nyu.github.io</a>.</p>
+            <p>I'm also a cinephile and love to be moved by great films, so check out my <a href="films" title="Favorite Film List">list of favorite films</a>. I mainly read science fiction books, but also occasionally read other great books. If you want some of those recommendations check out my <a href="books" title="Favorite Book List">list of favorite books</a>. I also periodically update a playlist of my latest music recommendations for your listening pleasure, found below.<br><iframe src="https://open.spotify.com/embed/playlist/5RxAhI442YRQGboJDWlWhX" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></p>
+            <p>Finally, through the navigation panel on the right hand side of this page, you can explore my <a href="creative" title="Creative">creative</a>, <a href="research" title="Research">research</a>, or <a href="code" title="Code">programming</a> pursuits.</p>
+        </section>
+        <section>
+            <h2>Connect</h2>
+            <h3>GitHub</h3>
+            <p><a href="https://www.github.com/KEYS248" title="GitHub" target="_blank">github.com/KEYS248</a></p>
+            <h3>Email</h3>
+            <p><a href="mailto:contact@datumplane.net" title="Email Address">contact@datumplane.net</a><br><br>
+        </section>
+	</main>
+	<div id="footer"></div>
+	</body>
+</html>
