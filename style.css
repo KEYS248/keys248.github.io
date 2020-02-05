@@ -68,13 +68,13 @@ img {
 	pointer-events: none;
 }
 h1 {
-	font: 1.6em Consolas, monospace;
+	font: 1.6em 'Source Code Pro', monospace;
 	margin-bottom: .4em;
 	color: #36648B;
     border-bottom: 1px solid gray;
 }
 h2 {
-	font: 2.5em Consolas, monospace;
+	font: 2.5em 'Source Code Pro', monospace;
 	margin-bottom: .2em;
 }
 h3 {
