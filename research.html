@@ -31,6 +31,8 @@
 		<h2>Research</h2>
         <section class="content">
             <dl>
+                <dt><a href="#cfdna" title="cfDNA Monitoring in ALL">cfDNA Monitoring in ALL</a></dt>
+                <dd>Proof-of-concept leukemic and microbial disease burden monitoring in ALL patients.</dd>
                 <dt><a href="#wga" title="Whole Genome Amplification">Whole Genome Amplification</a></dt>
                 <dd>Innovative biochemical improvements for single-cell whole genome DNA sequencing.</dd>
                 <dt><a href="#gene-therapy-thesis" title="Gene Therapy Thesis">Gene Therapy Thesis</a></dt>
@@ -46,10 +48,18 @@
             </dl>
         </section>
         <section>
+            <h2 id="cfdna">cfDNA Monitoring in ALL</h2>
+            <p><strong>Connection:</strong> Since September 2019, I've been a data analyst for the <a href="http://gawadlab.com/" title="Gawad Lab" target="_blank".>Gawad Lab</a> at Stanford.</p>
+            <p><strong>Summary:</strong> This study used cell-free (cfDNA) collected from the peripheral blood of patients undergoing treatment for Acute Lymphoblastic Leukemia (ALL) to test whether we could monitor the two leading causes of mortality in this population: 1) disease persistence/relapse and 2) microbial infection. cfDNA from peripheral blood was compared with bone marrow biopies and cellular bone marrow aspirations. cfDNA was able to detect and monitor disease burden in most patients along with being able to display patterns in burden throughout treatment. The content of variants found in cfDNA was comparable to bone marrow biopsies and provides evidence that invasive biopsies may be unnecessary at diagnosis. Finally, within the microbial dynamics, we found evidence of herpes and polyoma virus reactivation.</p>
+            <h3><a href="https://www.medrxiv.org/content/10.1101/2021.03.30.21253149v1" title="cfDNA Preprint" target="_blank">Simultaneous Monitoring of Disease and Microbe Dynamics Through Plasma DNA Sequencing in Pediatric Patients with Acute Lymphoblastic Leukemia [MedArchives Preprint Link]</a></h3>
+            <p class="center"><img class="center" src="assets/research/cfDNA_vs_bone_marrow.png" title="cfDNA vs Bone Marrow">Figure 2 d - Many of the same pathogenic variants were detected in peripheral blood cfDNA and in bone marrow, along with having unique variants for each method. This suggests both comparments are capturing most of the same variant information.</p>
+            <p class="center"><img class="center" src="assets/research/microbial_identification_method.png" title="Microbial Identification Method">Figure 3 a - We used a novel approach in an attempt to maximize accuracy in the identication of microbial species from peripheral blood cfDNA. We performed a concordance check using 2 microbial identicification methods (Kraken2 and BLAST) along with quality score filtering.</p>
+        </section>
+        <section>
             <h2 id="wga">Whole Genome Amplification</h2>
             <p><strong>Connection:</strong> Since September 2019, I've been a data analyst for the <a href="http://gawadlab.com/" title="Gawad Lab" target="_blank".>Gawad Lab</a> at Stanford.</p>
             <p><strong>Summary:</strong> The Gawad Lab developed an innovative biochemical method for single-cell DNA (scDNA) Whole Genome Amplication (WGA) termmed Primary-template Directed Amplification (PTA) that can provide up to 99% accuracy in an even distribution across the entire human genome, a large improvement over other leading scDNA WGA methods that only achieve 10-20% accuracy due to uneven amplification. This paper describes this novel method, compares it to competing methods, and demonstrates its improved ability to discover mutations and measure mutational rates. PTA is further applied to measure the mutation rates and location of CRISPR off-target sites, a major concern in the use of CRISPR technology.</p>
-            <h3><a href="https://www.biorxiv.org/content/10.1101/2020.11.20.391961v2" title="PTA Preprint" target="_blank">Accurate Genomic Variant Detection in Single Cells with Primary Template-Directed Amplification [Bioarchives Preprint Link]</a></h3>
+            <h3><a href="https://www.biorxiv.org/content/10.1101/2020.11.20.391961v2" title="PTA Preprint" target="_blank">Accurate Genomic Variant Detection in Single Cells with Primary Template-Directed Amplification [BioArchives Preprint Link]</a></h3>
             <p class="center"><img class="center" src="assets/research/pta_vs_mda_chr1_distribution.png" title="PTA Distribution">Figure 1 c and d - When compared to the leading method MDA, PTA displays increased depth of coverage and improved equality of distribution across chromosome 1.</p>
             <p class="center"><img class="center" style="width: 60%" src="assets/research/pta_vs_methods_coverage.png" title="PTA Coverage">Figure 2 a - Single-cell PTA displays whole genome coverage comparable to bulk sequencing, exceeding the ability of other leading scDNA WGA methods.</p>
             <p class="center"><img class="center" src="assets/research/pta_vs_methods_sensitivity_precision.png" title="PTA Sensitivity and Precision">Figure 3 a and b - Single-cell PTA displays single nucleotide variation sensitivity and precision comparable to bulk sequencing, exceeding the ability of other leading scDNA WGA methods.</p>
