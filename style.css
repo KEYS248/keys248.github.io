@@ -35,16 +35,16 @@ body {
 	border-bottom: 1px solid gray;
 }
 .sidebar {
-	border: 1px solid;
-    padding-right: 10px;
+	border: 1px;
+    padding: 10px;
     box-shadow: 5px 10px #888888;
 	background: white;
 	font-size: 0.8em;
 	color: #666;
 	position: fixed;
-	top: 25%;
-	right: 2%;
-	width: 120px;
+	top: 80%;
+	right: 5%;
+	text-align: center
 }
 img.center {
 	display: block;
