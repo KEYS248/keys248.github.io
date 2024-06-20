@@ -170,7 +170,7 @@ footer {
 .foot {
     box-sizing: border-box;
 	text-align: center;
-	display: inline-block;
+	display: inline;
 	width: 30%;
     padding: 0.5em;
 }
